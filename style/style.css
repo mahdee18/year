@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Work Sans', sans-serif;
+}
+i{
+    color: rgba(22, 216, 135, 1);
+    font-size: 22px;
+    
+}
+/* Navbar part Start */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+
+}
+.logo{
+
+}
+.nav{
+    display: flex;
+    margin-left: 450px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    padding-left: 40px;
+    list-style: none;
+    
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    font-size: 20px;
+
+
+}
+#navbar ul li a:hover{
+        color: rgba(241, 91, 34, 1);
+        transition: all linear 0.5s;
+}
+/* Navbar part End */
+
+/* Header part Start */
+#header{
+    background: url(../images/banner/banner2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    text-align: right;
+    color: rgb(17, 17, 17);
+}
+.header-text{
+    padding-top: 100px;
+    width: 500px;
+    padding-left: 650px;
+}
+.title{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+}
+.description{
+    color: rgb(12, 12, 12);
+    padding-top: 25px;
+    padding-bottom: 35px;
+
+
+}
+.primary-btn{
+    background: rgba(241, 91, 34, 1);
+    color: white;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.primary-btn:hover{
+    color: rgba(241, 91, 34, 1);
+    background: white;
+    transition: all linear 0.5s;
+}
+/* Header part End */
+/* Failures part Start */
+#failuers{
+    padding-top: 100px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+
+}
+.failuers-text{
+    margin-top: 250px;
+}
+.failuers-heading{
+    font-size: 40px;
+    font-weight: 700;
+    width: 300px;
+    text-align: left;
+}
+.descriptions{
+    color: rgb(12, 12, 12);
+    padding-top: 25px;
+    padding-bottom: 35px;
+    width: 405px;
+
+
+
+}
+/* Failures part End */
+
+/* My plans part Start */
+#plans{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.plans-header{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plans-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.item{
+    text-align: center;
+}
+.plans-title{
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+.plans-subtitle{
+    color: rgba(115, 114, 114, 1);
+}
+
+/* My plans part End */
+
+/* Habit part Start */
+#habit{
+    padding-bottom: 100px;
+    text-align: center;
+}
+.goals{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 200px;
+}
+.habit-title{
+    font-size: 45px;
+}
+.habit-sub-title{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.steps{
+    text-align: left;
+    color: rgb(150, 139, 139);
+}
+.give-up i{
+    color: red;
+}
+/* Habit part End */
+
+/* Footer top part Start */
+#footer-top{
+    background: linear-gradient(to right, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("../images/watch.png"), url("../images/gradient2.png");
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-size: contain;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+
+}
+.mind-set-img{
+    
+}
+.gradiant-img{
+}
+.footer-top-title{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+.fotter-top-texts{
+    margin-left: 100px;
+    
+}
+.btn{
+    margin-top: 30px;
+    padding: 15px 25px;
+    color: rgba(241, 91, 34, 1);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover{
+    background: rgba(241, 91, 34, 1);
+    color: white;
+    transition: all linear 0.5s;
+}
+/* Footer top part End */
+
+/* Footer part Start */
+#fotter{
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 230px;
+    margin-top: 100px;
+}
+.fotter-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.future-pera{
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.subscribe-title{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.subscribe input{
+    padding: 15px 0px;
+    background: #000;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 14px;
+}
+/* Footer part End */
+
+/* Footer bottom Start */
+.footer-bottom-text{
+    background: rgb(206, 200, 200);
+    color: rgb(24, 23, 23);
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 400px;
+}
+/* Footer bottom End */
